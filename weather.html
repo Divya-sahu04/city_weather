@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sky Checker</title>
+
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+
+    <div class="mainBox">
+
+        <h1>🌤 Sky Checker</h1>
+        <p class="tagLine">Mini Weather Project</p>
+
+        <input type="text" id="cityInput" placeholder="Enter City Name">
+
+        <button onclick="checkWeather()">
+            Check Weather
+        </button>
+
+        <div class="weatherBox" id="weatherBox">
+
+            <h2 id="cityName">City</h2>
+
+            <p id="temp">Temperature : -- °C</p>
+
+            <p id="climate">Climate : --</p>
+
+            <p id="humidity">Humidity : --</p>
+
+        </div>
+
+    </div>
+
+    <script src="weather.js"></script>
+
+</body>
+</html>

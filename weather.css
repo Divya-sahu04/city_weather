@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #74ebd5, #9face6);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.mainBox{
+    width: 350px;
+    background-color: white;
+    margin: 80px auto;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+}
+
+h1{
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.tagLine{
+    color: gray;
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+
+input{
+    width: 80%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid gray;
+    outline: none;
+}
+
+button{
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #4a67ff;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #2f49c7;
+}
+
+.weatherBox{
+    margin-top: 25px;
+    background-color: #f2f2f2;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.weatherBox p{
+    font-size: 16px;
+    margin: 10px;
+}
